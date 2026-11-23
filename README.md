@@ -18,3 +18,4 @@ A three-plan SaaS pricing section with a Monthly/Yearly toggle, a highlighted Po
 Open `index.html` in VS Code with Live Server.
 
 Prices are made up. Yearly prices are about 20 percent cheaper than 12 months of monthly billing.
+link - file:///C:/Users/HP/Downloads/Responsive%20Pricing%20Cards.html
