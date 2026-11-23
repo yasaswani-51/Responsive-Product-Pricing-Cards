@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pricing Cards</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <section class="pricing" aria-labelledby="pricing-title">
+      <h2 id="pricing-title">Pick a plan that fits your team</h2>
+      <p class="intro">Switch to yearly billing and save about 20 percent.</p>
+
+      <div class="toggle" role="group" aria-label="Billing period">
+        <button id="monthly" class="active" aria-pressed="true">Monthly</button>
+        <button id="yearly" aria-pressed="false">Yearly</button>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Starter</h3>
+          <p class="tagline">For solo projects</p>
+          <p class="price-row">
+            <span class="currency">₹</span>
+            <span class="price" data-monthly="299" data-yearly="2870">299</span>
+            <span class="unit">per month</span>
+          </p>
+          <ul>
+            <li>1 user</li>
+            <li>5 projects</li>
+            <li>2 GB storage</li>
+            <li>Email support</li>
+            <li>Basic reports</li>
+          </ul>
+          <a class="cta" href="#">Start with Starter</a>
+        </article>
+
+        <article class="card popular">
+          <span class="ribbon">Popular</span>
+          <h3>Pro</h3>
+          <p class="tagline">For growing teams</p>
+          <p class="price-row">
+            <span class="currency">₹</span>
+            <span class="price" data-monthly="599" data-yearly="5750">599</span>
+            <span class="unit">per month</span>
+          </p>
+          <ul>
+            <li>5 users</li>
+            <li>Unlimited projects</li>
+            <li>50 GB storage</li>
+            <li>Priority support</li>
+            <li>Advanced reports</li>
+          </ul>
+          <a class="cta" href="#">Choose Pro</a>
+        </article>
+
+        <article class="card">
+          <span class="ribbon best">Best Value</span>
+          <h3>Team</h3>
+          <p class="tagline">For whole organisations</p>
+          <p class="price-row">
+            <span class="currency">₹</span>
+            <span class="price" data-monthly="999" data-yearly="9590">999</span>
+            <span class="unit">per month</span>
+          </p>
+          <ul>
+            <li>20 users</li>
+            <li>Unlimited projects</li>
+            <li>200 GB storage</li>
+            <li>24/7 support</li>
+            <li>Custom reports</li>
+          </ul>
+          <a class="cta" href="#">Choose Team</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
